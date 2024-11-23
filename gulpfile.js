@@ -8,6 +8,7 @@ gulp.task(
   "build:package", gulp.series(
     "build:clean",
     "build:copy-files",
+    "build:now-prototype-it-config",
     "build:javascript",
     "build:javascript-with-jquery",
     "build:compress-images",
